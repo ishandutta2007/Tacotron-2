@@ -80,3 +80,10 @@ I've begun to implement the multi-speaker tacotron architecture suggested by the
 Particularly if using a smaller dataset and no scheduled sampling, you're likely to see very different audio quality at training and test time, even on training examples.
 This is a result of how this seq2seq model is trained -- in training, the ground truth is provided at each time step in the decoder but in testing we must use the previous time step as input. This will be noisey and thus result in poorer quality future outputs. Scheduled sampling addresses this.
 
+
+### Support:
+
+If you want the good work to continue please support us on
+
+* [PAYPAL](https://www.paypal.me/ishandutta2007)
+* [BITCOIN ADDRESS: 3LZazKXG18Hxa3LLNAeKYZNtLzCxpv1LyD](https://www.coinbase.com/join/5a8e4a045b02c403bc3a9c0c)
